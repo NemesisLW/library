@@ -10,8 +10,7 @@ This repository is essentially my digital bookshelf, filled with gems across var
 
 - [[patterns & perspectives]]
 - [[digital instincts, intuition, mental models]]
-- 
-
+-
 ### Technology
 
 Here you'll find musings on the latest tech trends, fascinating insights into artificial intelligence, and perhaps a sprinkle of futuristic ponderings.
