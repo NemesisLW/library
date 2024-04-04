@@ -62,26 +62,3 @@
 ***
 ***
 ***
-
-# Case Study
-***
-## URL Shortener
-
-***
-***
-
-## Autocomplete
-
-***
-***
-
-## Spotify
-
-***
-***
-
-## E-commerce 
-
-***
-***
-
