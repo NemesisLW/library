@@ -1,0 +1,1 @@
+ * [how browsers work](https://web.dev/articles/howbrowserswork)
