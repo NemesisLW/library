@@ -68,6 +68,10 @@ iridescence water abstract gradient --ar 16:9 --style raw --sref [https://s.mj.r
 ```
 Create an intricately detailed miniature [place] scene inside a clear glass bottle. The lighting should emulate a [weather] day, casting vivid shadows and giving the scene a [mood] glow.
 ```
+* 
+```
+Craft an abstract [subject] using smoke ink art techniques, featuring minimalistic [color] neon sketches and a flowing silhouette.
+```
 ### Figures
 
 ```
@@ -86,3 +90,7 @@ A [character], in [place], wearing a [clothes], in Atompunk style, [angle], spac
 A screenshot from third person POV | 2.5D cartoon effect | a [character] at [place] | [location] background | showing character like a RPG videogame | from the angle | [palette] palette --ar 16:9 --style raw --s 150
 ```
 
+* *Grand Budapest Hotel*
+```
+[SUBJECT] in a stylized hotel interior featuring pastel colors and symmetrical design, capturing the aesthetic of The Grand Budapest Hotel, featuring [COLOR]
+```
