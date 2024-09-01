@@ -8,10 +8,22 @@
 * **protocol**: A set of rules and conventions that dictate how data is *formatted, transmitted, received & processed* between two or more devices in a computer network. Standardizes system data architecture. *NOT a tangible concrete thing, more so like a set of ideas.*
 * **IP address**:
 	* Divided into two main parts - **Network address** (first 3 octets), *represents the network* and **Host address** (last octet), *represents the specific device*.
+	* **IPv4** is *32-bit* with 4 octets (A.B.C.D), whereas **IPv6** addresses are *128 bits* long (groups of 16 bits).
 * subnet: diving the network address into smaller manageable components, focused on related tasks. **Improves performance.** **Isolating security issues.**
-* TCP/IP:
+* **OSI Model**: The **Open Systems Interconnection** (OSI) model has 7 layers. **Each layer has specific protocols** that operate at that level, handling aspects from *physical data transmission* to *application-level interactions*.
+* **TCP/IP**: Simplification of OSI model. It condenses the OSI layers into 4 Layers (**Link, Internet, Transport, Application**). More Practical for understanding internet-based communication.
 * DNS:
 * HTTP:
+* **IPFS** (InterPlanetary File System):  a **protocol** and **peer-to-peer network** for *storing and sharing data (making the data accessible for the person who requested it)* in a distributed file system. 
+	* IPFS uses **content addressing** instead of *location addressing* (IP Address) for storing data.
+	* **CID** (Content Identifier): self-describing value that uses cryptographic hashes to achieve content addressing. *Cryptographic hash of the content to **label** the data*.
+		* CID - *Codec (used for encoding and decoding data)* & *Multihash(contains type, length and value - original hash)*s
+		![CID](./assets/CID.png)
+
+	* IPFS uses **SHA2-256** algorithm as default.
+	* uses DHT (***Distributed Hash Table***) data structure - key-value table.
+	* represents a file in form of Merkle Tree - ***Merkle DAG***. 
+	* A large file is chunked into pieces and each piece is given a hash. All the hashes are computed to form the root hash which is the *CID of the original file.*
 
 **~(*scaling*)**
 * **vertical scaling**: add more compute (RAM & CPU) to the single device. Easy but limited upside ceiling. 
@@ -40,6 +52,9 @@
 	* Instead of `Request & Response` cycle (HTTP Polling), clients and servers communicate using **Events and Messages**. *Instant Updates*.
 
 **~(*database management*)**
+
+* a **transaction** is a single logical unit of work that accesses and possibly modifies the contents of a database.
+* 
 * ***SQL vs. NoSQL Trade-offs***:
 * **In-memory storage (cache)**: 
 * **On Disk**:
